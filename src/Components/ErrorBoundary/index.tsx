@@ -23,7 +23,11 @@ class ErrorBoundary extends React.Component<any, any> {
             return <h1 className="text-white">Something went wrong when load module federation.</h1>;
         }
 
-        return this.props.children;
+        return (
+            <React.Suspense fallback="loading">
+                {this.props.children}
+            </React.Suspense>
+        );
     }
 }
 
