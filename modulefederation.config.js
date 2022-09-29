@@ -1,9 +1,9 @@
 const deps = require("./package.json").dependencies;
 
 module.exports = {
-  name: "app1",
+  name: "host-app",
   remotes: {
-    accountPlatform: `accountPlatform@${process.env.REACT_APP_ACCOUNT_PLATFORM_URL}`,
+    pageWithDialog: `accountPlatform@https://next-js-remote-app-git-v100-fahmi-machtwatch.vercel.app/api/remote-entry`,
   },
   filename: "remoteEntry.js",
   shared: {
