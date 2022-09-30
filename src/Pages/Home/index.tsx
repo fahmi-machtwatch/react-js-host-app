@@ -8,7 +8,7 @@ const Page1 = React.lazy(() => import("pageWithDialog/page1"));
 
 const Home = () => (
     <div className="bg-gray-900 p-20 h-screen flex justify-center items-start flex-col text-white">
-        <h1 className="text-5xl text-white">Hello World 👋</h1>
+        <h1 className="text-5xl text-white">Host 1 👋</h1>
         <p className="text-gray-400 mt-5 text-lg">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
             consequuntur odio aut nobis ab quis? Reiciendis doloremque ut quo fugiat
