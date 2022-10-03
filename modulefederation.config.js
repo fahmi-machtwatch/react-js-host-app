@@ -3,7 +3,7 @@ const deps = require("./package.json").dependencies;
 module.exports = {
   name: "app1",
   remotes: {
-    accountPlatform: `accountPlatform@${process.env.REACT_APP_ACCOUNT_PLATFORM_URL}`,
+    accountPlatform: `accountPlatform@https://next-js-remote-app.vercel.app`,
   },
   filename: "remoteEntry.js",
   shared: {
